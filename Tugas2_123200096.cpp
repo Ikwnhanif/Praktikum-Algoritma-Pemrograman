@@ -15,28 +15,28 @@ int main()
 
 	if (umur1 <= 12){
 		bantuan1 = 15000;
-	}	else if (umur1 > 12 , umur1 <= 20){
+	}	else if (umur1 > 12 && umur1 <= 20){
 		bantuan1 = 20000;
 	}	else if (umur1 > 20){
 		bantuan1 = 30000;
 	}
 	if (umur2 <= 12){
 		bantuan2 = 15000;
-	}	else if (umur2 > 12 , umur2 <= 20){
+	}	else if (umur2 > 12 && umur2 <= 20){
 		bantuan2 = 20000;
 	}	else if (umur2 > 20){
 		bantuan2 = 30000;
 	}
 	if (umur3 <= 12){
 		bantuan3 = 15000;
-	}	else if (umur3 > 12 , umur3 <= 20){
+	}	else if (umur3 > 12 && umur3 <= 20){
 		bantuan3 = 20000;
 	}	else if (umur3 > 20){
 		bantuan3 = 30000;
 	}
 	if (umur4 <= 12){
 		bantuan4 = 15000;
-	}	else if (umur4 > 12 , umur4 <= 20){
+	}	else if (umur4 > 12 && umur4 <= 20){
 		bantuan4 = 20000;
 	}	else if (umur4 > 20){
 		bantuan4 = 30000;
@@ -47,7 +47,7 @@ int main()
 	cout << "Tagihan satu bulan adalah Rp. " << bantuan_total << endl;
 
 
-
+	cin.get();
 	cin.get();
 	return 0;
 }
